@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, r2_score
 from sklearn.preprocessing import LabelEncoder
 from sklearn.impute import SimpleImputer
 import pickle
-# strategy I used was to keep asking chatgpt to find faults in data preprocessing where dataset could be mistaken or smth, then coded the fixes
+# strategy I used was to keep asking chatgpt to find faults in data preprocessing where dataset could be mistaken or smth, then I coded the fixes
 # would be nice if we could have some way to start testing and debugging
 def train_model(params):
     dataset_id = params['dataset_csv']
